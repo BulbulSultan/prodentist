@@ -1,0 +1,335 @@
+:root{
+    --esasReng:#3267ff;
+}
+.logo{
+    height: 43px;
+}
+.bas{
+    display: flex;
+}
+.home{
+    color: var(--esasReng);
+}
+.hoverli{
+    &:hover{
+        color:var(--esasReng);
+    }
+}
+
+.second{
+    background-color: #e9f8fb;
+}
+.our{
+ margin-left: 97px;
+}
+.amet{
+    font-size: 15px;
+}
+.margin{
+    margin-top:115px;
+}
+
+.font{
+    margin-left: 90px;
+}
+/* .bar{
+    margin-top: -236px;
+    background-color: white;
+    left: 25px;
+} */
+.yourseat{
+    margin-top: 132px;
+}
+.goylu{
+    color: var(--esasReng);
+}
+.smile{
+    color: var(--esasReng);
+}
+
+.yazi{
+    color: var(--esasReng); 
+}
+.fa-star{
+    font-size: 15px;
+}
+.reqem{
+    font-size: 13px;
+}
+.icon{
+    color: var(--esasReng);
+}
+.bar2{
+    margin-top: 911px;
+    background-color: white;
+    z-index: 4;
+}
+.book{
+    margin-top: 43px;
+}
+.tekst{
+    font-size: 17px;
+    text-decoration: none;
+}
+.ikili1{
+    width: 150px;
+    border-radius: 100%;
+    margin-top: 174px;
+}
+.ikili2{
+    width: 150px;
+    border-radius: 100%;
+    margin-top: 366px;
+    margin-left: -32px;
+}
+.info2{
+    margin-top: 432px;
+}
+.pic{
+    width: 380px;
+    margin-top: 50px;
+}
+.clinic{
+    color: var(--esasReng);
+}
+.dord{
+list-style: none;
+}
+.soz{
+    font-size: 18px;
+    text-decoration: none;
+    left: 0;
+}
+.learn{
+    &:hover{
+        background-color: black;
+    }
+}
+.make{
+    margin-left: 20px;
+}
+.rew{
+    color: var(--esasReng);
+}
+
+.progres{
+    width: 95%;
+}
+.progres2{
+    width: 87%;
+}
+.say{
+    margin-left: 268px;
+}
+.goy{
+    background-color: var(--esasReng);
+    width: 63px;
+    margin-right: 15px;
+}
+.goy2{
+    color: var(--esasReng);
+}
+.mavi{
+    background-color: #edfdfd;
+}
+.b3{
+    margin-left: 335px;
+    margin-top: -361px;
+    background-color: white;
+
+}
+
+.sub{
+    font-size: 14px;
+}
+.check1{
+    list-style: none;
+    margin-left:-28px;
+}
+.check2{
+    list-style: none;
+    margin-left:60px;
+}
+.ch{
+    text-decoration: none;
+}
+.fa-tooth{
+    font-size: 55px;
+    color: white;
+}
+.yazili{
+    background-color: var(--esasReng);
+}
+.fa-user-doctor{
+    font-size: 55px;
+    color: white; 
+}
+.yazili2{
+    background-color: #000a2d;
+}
+.coment{
+    color: var(--esasReng);
+}
+.agbar{
+    background-color: white;
+    margin-top: -57px;
+    width: 70%;
+}
+.lorem{
+    font-size: 12px;
+}
+.dis{
+    color: var(--esasReng);
+    font-size: 45px;
+}
+.honest{
+    margin-top: 201px;
+}
+.blogs{
+    margin-top: 200px;
+}
+.tips{
+    background-color: white;
+    margin-top: 211px;
+    margin-left: -356px;
+}
+.ipsum{
+    font-size: 12px;
+}
+.become{
+    margin-top: 150px; 
+  
+}
+.becom{
+    background-color: #edfdfd;
+}
+.dolor{
+    font-size: 20px;
+}
+.women{
+    width: 321px;
+}
+.last{
+    background-color: #000a2d;
+}
+.soc{
+    list-style: none;
+    gap: 18px;
+}
+.xett{
+    background-color: var(--esasReng);
+    padding: 1px;
+}
+.soc2{
+  margin-left: -30px;
+    list-style: none;
+}
+.form{
+    padding: 5px;
+    background-color: white;
+    height: 60px;
+}
+/* .form input{
+    outline: 0;
+} */
+/* .pa{
+    top:10px;
+    right: 10px;
+} */
+.foot{
+    background-color: #000a2d;
+}
+.xett1{
+    padding:0.5px;
+    background-color: rgb(191, 185, 185);
+}
+.cumle{
+    border: 1px solid rgb(212, 209, 209);
+    padding: 12px;
+    margin-top: 10px;
+  margin-left: 325px;
+}
+.ourp{
+    font-size: 16px;
+}
+.consect{
+    font-size: 22px;
+}
+.consec{
+    font-size: 20px;
+}
+/* .dedicated{
+    background-image: 	https://profecient.arhstudio.net/prodentist/wp-con…/2023/05/dental-consultation-at-clinic-cover.webp;
+} */
+
+@media(max-width:1024px){
+    .logo{
+        height: 22px;
+        margin-left: -57px;
+    }
+    .our{
+        margin-left: -57px;
+    }
+    .ourp{
+        font-size: 12px;
+
+    }
+    .consect{
+        font-size: 16px;
+    }
+    .consec{
+        font-size: 14px;
+    }
+    .cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .cons{
+        font-size: 13px;
+    }
+    .cumle{
+        margin-left: 4px;
+    }
+    
+    .dord{
+        flex-direction: column;
+    }
+    .but{
+        flex-direction: column;
+    }
+    .pic{
+        width:100% !important;
+    }
+    .b3{
+        bottom: 0;
+    }
+    /* .birinci{
+        display: none;
+    }
+    .bar3{
+        background-color: white;
+    } */
+    .bluet{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .bluer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .orta{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+    
+    }
+    .margin{
+        margin-top:115px;
+    }
+    .zametka{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    }
